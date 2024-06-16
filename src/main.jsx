@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       domain={auth0Config.domain}
       clientId={auth0Config.clientId}
       authorizationParams={{
-        redirect_uri: "https://login-php-theta.vercel.app/dashboard"
+        redirect_uri: "https://login-auth0-theta.vercel.app/dashboard"
       }}
     >
       <App />
